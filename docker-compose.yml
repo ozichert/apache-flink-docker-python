@@ -2,9 +2,6 @@ version: "2.1"
 services:
   jobmanager:
     build: ./jobmanager
-#    image: flink:1.9
-#    expose:
-#      - "6123"
     ports:
       - "8081:8081"
     command: jobmanager
